@@ -29,3 +29,11 @@ application-*.local.yml
 # Temporary files
 *.tmp
 *.swp
+
+# AWS generated / environment-specific files
+kafka-task-definition*.json
+order-service.json
+product-service.json
+
+# Local MySQL setup
+mysql/
